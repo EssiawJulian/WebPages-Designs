@@ -43,12 +43,15 @@ li {
 ul {
   display: flex;
   margin: 0;
-  padding: 24px 16px;
   gap: 16px;
 }
 
+.header ul{
+  padding: 24px 16px;
+}
+
 .header a{
-  color: gray;
+  color: #666;
 } 
 
 .content {
@@ -63,4 +66,22 @@ ul {
 body {
   display: flex;
   flex-direction: column;
+}
+
+.buttons button{
+  padding: 8px 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.left-links a, .right-links a {
+  color: #666;
+}
+
+.footer ul{
+  padding: 16px;
 }
